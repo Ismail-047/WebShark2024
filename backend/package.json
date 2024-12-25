@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "WEB SHARK HACKATHON LUMS 2024",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ismail-047/WebShark2024.git"
+  },
+  "keywords": [
+    "WEBSHARK",
+    "2024",
+    "LUMS",
+    "TEAM-MSI",
+    "FULLSTACK",
+    "WEB-DEVELOPMENT",
+    "MERN"
+  ],
+  "author": "Muhammad Ismail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ismail-047/WebShark2024/issues"
+  },
+  "homepage": "https://github.com/Ismail-047/WebShark2024#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

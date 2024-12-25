@@ -1,0 +1,178 @@
+/* UNIVERSAL AUTH CSS */
+.authPages {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   min-height: 100vh;
+   max-height: 100vh;
+   overflow: hidden;
+}
+
+.authPagesHeader {
+   display: flex;
+   align-items: center;
+   height: 10vh;
+   width: 100vw;
+   padding: 20px 60px;
+   border-bottom: 2px solid #d6d6d6;
+}
+
+.authPageFormContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 88vh;
+}
+
+.authForm {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   min-width: 350px;
+   max-width: 350px;
+   border-radius: 5px;
+   padding: 40px 24px;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.authForm input {
+   width: 280px;
+   outline: none;
+   margin-top: 20px;
+   font-size: 15px;
+   padding: 7px 16px;
+   border-radius: 5px;
+   border: 2px solid #d6d6d6;
+
+   &:focus {
+      border-color: #9ca3af;
+   }
+}
+
+.authForm button {
+   outline: none;
+   height: 40px;
+   width: 110px;
+   color: white;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 6px;
+   border: 3px solid teal;
+   background-color: teal;
+
+   &:hover {
+      color: teal;
+      background-color: white;
+   }
+}
+
+.link {
+   font-size: 15px;
+   color: #4545ec;
+   font-weight: 600;
+   padding-left: 5px;
+   text-decoration: none;
+
+   &:hover {
+      text-decoration: underline;
+   }
+}
+
+.message {
+   width: 100%;
+   color: red;
+   margin-top: 12px;
+   font-weight: 500;
+   padding-left: 25px;
+}
+
+/* 1.LOGIN PAGE */
+.loginH1 {
+   font-size: 35px;
+   padding-bottom: 10px;
+}
+
+.forgotPassword {
+   font-size: 15px;
+   margin-top: 23px;
+   margin-bottom: 40px;
+}
+
+.signupLink {
+   font-size: 15px;
+   margin-top: 85px;
+}
+
+
+/* 2.SIGNUP PAGE */
+.signupButton {
+   margin-top: 35px;
+}
+
+.loginLink {
+   margin-top: 75px;
+}
+
+
+/* 3.VERIFY EMAIL */
+.verifyEmailInfo {
+   line-height: 1.3;
+   margin-top: 20px;
+   text-align: center;
+}
+
+.verifyEmailNote {
+   margin-top: 75px;
+   font-size: 15px;
+}
+
+.verifyButton {
+   margin-top: 40px;
+}
+
+
+/* 4.REQUEST PASSWORD RESET */
+.requestPassResetH1 {
+   font-size: 28px;
+}
+
+.requestPassResetInfo {
+   line-height: 1.3;
+   text-align: center;
+   margin: 20px 20px 0px 20px;
+}
+
+.requestPassResetNote {
+   margin-top: 13px;
+   font-size: 15px;
+}
+
+.requestButton {
+   margin-top: 35px;
+}
+
+.newaccount {
+   margin-top: 70px;
+}
+
+/* 5.RESET PASSWORD */
+.resetPassH1 {
+   font-size: 30px;
+   line-height: 1.3;
+}
+
+.resetPassInfo {
+   text-align: center;
+   margin: 10px 20px 0px 20px;
+}
+
+.resetButton {
+   margin-top: 35px;
+}
+
+.resetPassNote {
+   font-size: 15px;
+   margin-top: 70px;
+   text-align: center;
+}

@@ -1,0 +1,32 @@
+.loadingButtonClass {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   overflow: hidden;
+   transition: all 0.3s ease-in-out;
+}
+
+.loader {
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+   border-top: 2px solid white;
+}
+
+@keyframes spin {
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.spinLoader {
+   animation: spin 1.5s linear infinite;
+}
+
+.disabledButton {
+   opacity: 0.5;
+   color: white;
+   cursor: default;
+   background-color: teal;
+}
